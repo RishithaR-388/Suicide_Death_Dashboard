@@ -1,0 +1,202 @@
+body{
+  background-color: #040D12;
+}
+.col1 {
+  
+  float: left;
+  width: 30%;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  height: 300px; 
+}
+.col2 {
+  
+  float: left;
+  width: 60%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 1%;
+  height: 300px; 
+  border-radius: 45px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  margin-bottom: 2%;
+  box-shadow: 2%;
+}
+
+.title1 {
+  float: left;
+  width: 60%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5%;
+  padding-right: 0%;
+  text-align: center;
+  margin-left: 46px;
+ /* border: 2px solid white; */
+
+}
+
+.title2 {
+  float: left;
+  width: 25%;
+  margin-top: 22px;
+  padding-top: 2px;
+  padding-left: 85px;
+  padding-bottom: 2px;
+ 
+}
+
+.title_panel:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.title_panel {
+  background-color: #183D3D; 
+  margin-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left : 4.5%;
+  margin-right : 5%;
+  border-radius: 45px;
+  box-shadow: 5px 8px #102424;
+}
+
+.heading{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.sub-heading{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.pagelink{
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.pageitem{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 4px;
+
+} 
+
+.pageitem:hover{ 
+  /* background-color: grey; */
+  color: #68d3ae;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.subcol1{
+  margin-top: 30%;
+  margin-left: 30%;
+  padding-top: 10%;
+  padding-left: 3%;
+  padding-bottom: 20%;
+  border-radius: 45px;
+  background-color: #3c5d51; 
+}
+
+.subcol2{
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 45px;
+} 
+
+.country_dropdown {
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.type_dropdown{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.dcc_comp{
+  color: black;
+}
+
+.chart{
+  margin-top: 0%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  width: 80%;
+  height: 300px;
+  border-radius: 45px;
+  /* border: 2px solid black; */
+}
+
+.chart_heading{
+  margin-top: 2%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.country_map{
+  margin-top: 1%;
+  margin-left: 9%;
+  padding-top: 0.5%;
+  padding-right: 5%;
+  padding-bottom: 0.5%;
+  text-align: center;
+  /* background-color: black; */
+  
+} 
+
+.gap1{
+  margin-top: 4%;
+  margin-bottom: 2%;
+  background-color: white;
+}
+
+.gap2{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  background-color: white;
+}
+.gap3{
+  margin-top: 10%;
+  margin-bottom: 2%;
+  background-color: white;
+}
+
+
+
+.graph{
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.year_select{
+  margin-left: 10%;
+
+}
+  
+
+
