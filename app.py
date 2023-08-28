@@ -1,5 +1,5 @@
 from dash import Dash, dcc, html, Input, Output, callback
-from pages import page1, page2, page
+from pages import page1, page
 
 
 app = Dash(__name__, suppress_callback_exceptions=True)
